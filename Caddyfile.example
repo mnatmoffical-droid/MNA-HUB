@@ -1,0 +1,6 @@
+# Caddy сам получит https-сертификат. Замени адрес на свой домен.
+hub.example.com {
+	reverse_proxy 127.0.0.1:8787 {
+		flush_interval -1
+	}
+}

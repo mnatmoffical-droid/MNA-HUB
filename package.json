@@ -1,0 +1,15 @@
+{
+  "name": "mna-hub",
+  "version": "1.1.0",
+  "description": "MNA Hub: уникальные ники, друзья, чат и приглашения в игру для MNA Launcher",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
